@@ -1,27 +1,39 @@
-# sv
+# Ordem de Livros
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Este é um projeto para organizar e ordenar uma lista de livros, construído com SvelteKit, um framework para construir aplicações web de todos os tamanhos, com uma bela experiência de desenvolvimento e marcações flexíveis baseadas em sistema de arquivos.
 
-## Creating a project
+## Tecnologias Utilizadas
 
-If you're seeing this, you've probably already done this step. Congrats!
+-   **SvelteKit**: Framework para construção de aplicações web.
+-   **Vite**: Ferramenta de build para o frontend.
+-   **Node.js**: Ambiente de execução.
 
-```sh
-# create a new project in the current directory
-npx sv create
+## Começando
 
-# create a new project in my-app
-npx sv create my-app
-```
+### Pré-requisitos
 
-## Developing
+Certifique-se de ter o Node.js instalado.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### Instalação
+
+1.  Clone o repositório (se aplicável).
+2.  Navegue até o diretório do projeto:
+    ```sh
+    cd ordem-livros
+    ```
+3.  Instale as dependências:
+    ```sh
+    npm install
+    ```
+
+### Rodando o Servidor de Desenvolvimento
+
+Uma vez que você criou o projeto e instalou as dependências com `npm install` (ou `pnpm install` ou `yarn`), inicie o servidor de desenvolvimento:
 
 ```sh
 npm run dev
 
-# or start the server and open the app in a new browser tab
+# ou para iniciar o servidor e abrir o app em uma nova aba do navegador
 npm run dev -- --open
 ```
 
